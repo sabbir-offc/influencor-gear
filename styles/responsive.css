@@ -1,0 +1,33 @@
+@media screen and (max-width:576px) {
+    body{
+        padding: 20px;
+    }
+    nav ul{
+        display: none;
+    }
+    .fa-solid,.fa-cart-shopping{
+        display: inline;
+    }
+    .banner{
+        margin-top: 50px;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column-reverse;
+        background-size: inherit;
+        align-items: center;
+        background-position: top;
+        
+    }
+    .banner-img,.section-title,.section-description{
+        max-width: 100%;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .sponsor-container{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
