@@ -9,7 +9,7 @@ body {
 
 /* Header styles */
 nav {
-    
+
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -25,9 +25,11 @@ nav ul {
 nav ul>li {
     list-style: none;
 }
-.fa-solid{
+
+.fa-solid {
     display: none;
 }
+
 /* Banner style*/
 .banner {
     display: flex;
@@ -73,8 +75,34 @@ nav ul>li {
 }
 
 /* Sponsor style */
-.sponsor-container{
+.sponsor-container {
     margin-top: 115px;
     display: flex;
     justify-content: space-around;
+}
+
+/* collection styles */
+.collection-container {
+    text-align: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-content: center;
+}
+
+.card {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    width: 329px;
+    height: 476px;
+    padding: 15px;
+}
+
+.card p {
+    text-align: left;
 }
